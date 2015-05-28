@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) or die( 'Nope!' );
  * Enqueue scripts and styles on back-end.
  */
 function deconcc_admin_scripts($hook) {
-	/* Enqueue scripts and styles on either post.php or profile.php only. */
+	/* Enqueue scripts and styles on either post.php, profile.php, user-edit.php, or user-new.php only. */
 	if ( 'post.php' == $hook || 'profile.php' == $hook || 'user-edit.php' == $hook || 'user-new.php' == $hook ) {
 		/* Admin styles */
 		wp_enqueue_style( 'deconcc-admin-style', plugin_dir_url( __FILE__ ) . 'css/decon-character-counter.css' );
