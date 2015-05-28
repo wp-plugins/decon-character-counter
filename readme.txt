@@ -25,10 +25,10 @@ Decon Character Counter:
 
 == Screenshots ==
 
-1. Title character counter (post or page).
-2. Content character counter (post or page).
-3. Excerpt character counter (post or page).
-4. Biographical Info character counter (user).
+1. Real-time Title character counter (post or page).
+2. Real-time Content character counter (post or page).
+3. Real-time Excerpt character counter (post or page).
+4. Real-time Biographical Info character counter (user).
 
 == Changelog ==
 
