@@ -23,13 +23,6 @@ Decon Character Counter:
 * for excerpt (post or page)
 * for biographical info (user)
 
-
-== Installation ==
-
-1. Install.
-1. Activate.
-1. Enjoy!
-
 == Screenshots ==
 
 1. Title character counter (post or page).
