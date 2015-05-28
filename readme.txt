@@ -32,10 +32,10 @@ Decon Character Counter overview:
 
 == Screenshots ==
 
-1. Post or page title character counter and an SEO-friendly reminder.
-2. Post or page content character counter.
-3. Post or page excerpt character counter.
-4. User biographical info character counter.
+1. Title character counter (post or page).
+2. Content character counter (post or page).
+3. Excerpt character counter (post or page).
+4. Biographical Info character counter (user).
 
 == Changelog ==
 
