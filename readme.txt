@@ -14,7 +14,7 @@ Adds a seamless title, content, and excerpt character counter for posts and page
 
 Counts the title, content, and excerpt characters while you edit your post or page.
 
-Also comes with real-time SEO-friendly reminder, just in case.
+Also comes with a real-time SEO-friendly reminder, just in case.
 
 Decon Character Counter overview:
 
