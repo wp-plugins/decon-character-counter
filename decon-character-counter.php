@@ -2,7 +2,7 @@
 /*
 Plugin Name: Decon Character Counter
 Description: Adds a seamless title, content, and excerpt character counter and SEO-friendliness checker for posts and pages via the admin screen.
-Version: 0.0.1
+Version: 0.0.2
 Author: Michael Tumlad
 Author URI: http://michaeltumlad.ph/
 License: GPLv2 or later
@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) or die( 'Nope!' );
  */
 function deconcc_admin_scripts($hook) {
 	/* Enqueue scripts and styles on either post.php or profile.php only. */
-	if ( 'post.php' == $hook || 'profile.php' == $hook ) {
+	if ( 'post.php' == $hook || 'profile.php' == $hook || 'user-edit.php' == $hook || 'user-new.php' == $hook ) {
 		/* Admin styles */
 		wp_enqueue_style( 'deconcc-admin-style', plugin_dir_url( __FILE__ ) . 'css/decon-character-counter.css' );
 
