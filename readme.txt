@@ -8,7 +8,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: character counter, title, content, excerpt, post, page, admin
 
-Adds a seamless title, content, and excerpt character counter for posts and pages via the admin screen.
+Adds a real-time title, content, and excerpt character counter for posts and pages via the admin screen.
 
 == Description ==
 
