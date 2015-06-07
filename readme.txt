@@ -6,7 +6,7 @@ Tested up to: 4.2.2
 Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: character, count, counter, title, content, excerpt, post, page, editor, admin
+Tags: character, count, counter, seo, title, content, excerpt, post, page, editor, admin
 
 Adds a real-time title, content, and excerpt character counter for posts and pages via the admin screen.
 
