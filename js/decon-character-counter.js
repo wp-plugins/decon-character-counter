@@ -1,7 +1,7 @@
 /**
  * decon-character-counter-js
  *
- * deconecc JavaScript file.
+ * deconcc JavaScript file.
  *
  * @package Decon_Character_Counter
  * @since 0.0.1
@@ -19,7 +19,15 @@ jQuery(document).ready(function($){
 		/* character count */
 		$('#titlediv .dcc-character').html($('#title').val().length);
 		$('#postdivrich .dcc-character').html($('#content').val().length);
-		$('#postexcerpt .dcc-character').html($('#excerpt').val().length);
+		/**
+		 * Check if page excerpt is supported by the active theme before counting.
+		 *
+		 * @package Decon_Character_Counter
+		 * @since 0.0.2
+		 */
+		if( $('#postexcerpt').length ) {
+			$('#postexcerpt .dcc-character').html($('#excerpt').val().length);
+		}
 
 		/* word count */
 		$('.dcc-word').html($('#content').val().split(/\S+\b[\s,\.\'-:;]*/).length - 1);

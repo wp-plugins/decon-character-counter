@@ -1,5 +1,7 @@
 <?php
 /**
+ * uninstall-php
+ *
  * Fired when the plugin is uninstalled.
  *
  * @package Decon_Character_Counter

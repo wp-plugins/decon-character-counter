@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Decon Character Counter
-Description: Adds a seamless title, content, and excerpt character counter and SEO-friendliness checker for posts and pages via the admin screen.
+Description: Adds a real-time title, content, and excerpt character counter for posts and pages via the admin screen.
 Version: 0.0.2
 Author: Michael Tumlad
 Author URI: http://michaeltumlad.ph/
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: deconcc
-Tags: character counter, title, content, excerpt, post, page, admin
+Tags: character, count, counter, seo, title, content, excerpt, post, page, editor, admin
 */
 
 /* Prevent direct access to the plugin files. */
